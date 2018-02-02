@@ -13,6 +13,18 @@ windows 下的 console 编码使用 936
 utf8 文件的编码在 windows 下 console 输出中文乱码，设置 `-Dfile.encoding=UTF-8` 改 `chcp 65001` 也没用
 
 
+## vscode 设置
+
+```
+args - The command line arguments passed to the program.
+encoding - The file.encoding setting for the JVM. If not specified, 'UTF-8' will be used. Possible values can be found in http://docs.oracle.com/javase/8/docs/technotes/guides/intl/encoding.doc.html.
+console - The specified console to launch the program. Defaults to internalConsole.
+    internalConsole - VS Code debug console (input stream not supported).
+    integratedTerminal - VS Code integrated terminal.
+    externalTerminal - External terminal that can be configured in user settings.
+```
+
+
 ##### This guide walks you through using Gradle to build a simple Java project.
 
 ### What you’ll need
