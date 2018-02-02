@@ -1,5 +1,18 @@
 # Building Java Projects with Gradle
 
+windows 下的 console 编码使用 936
+
+输出中文需要 GBK 编码，设置 `.vscode/launch.json`
+
+```
+"encoding": "GBK",	
+```
+
+同时需要把文件转为 Ansi(Gb2312) 编码。
+
+utf8 文件的编码在 windows 下 console 输出中文乱码，设置 `-Dfile.encoding=UTF-8` 改 `chcp 65001` 也没用
+
+
 ##### This guide walks you through using Gradle to build a simple Java project.
 
 ### What you’ll need

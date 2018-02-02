@@ -10,7 +10,7 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
 	        "encoding": "GBK",	
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopOnEntry": false,
             "mainClass": "hello.HelloWorld",
             "projectName": "HelloWorld",
